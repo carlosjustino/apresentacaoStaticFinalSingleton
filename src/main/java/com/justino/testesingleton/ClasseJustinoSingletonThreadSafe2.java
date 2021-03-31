@@ -5,7 +5,7 @@ package com.justino.testesingleton;
  */
 public class ClasseJustinoSingletonThreadSafe2 {
 
-    private static ClasseJustinoSingletonThreadSafe2 INSTANCE = new ClasseJustinoSingletonThreadSafe2();
+    private final static ClasseJustinoSingletonThreadSafe2 INSTANCE = new ClasseJustinoSingletonThreadSafe2();
 
     public static ClasseJustinoSingletonThreadSafe2 getInstance(){
         return INSTANCE;
