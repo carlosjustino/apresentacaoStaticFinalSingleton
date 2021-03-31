@@ -1,4 +1,4 @@
-package com.justino.testefinal;
+package com.justino.testestatic;
 
 public class TesteClasseExtendendoDaStatic extends TesteClasseComStatic{
 
